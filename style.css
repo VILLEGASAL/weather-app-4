@@ -1,0 +1,56 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    color: #58287F;
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+    
+}
+
+.main-container{
+
+    height: 100vh;
+    background-color: #1A0000;
+    display: grid;
+    place-content: center;
+}
+
+.weather-container{
+
+    background-color: #89C4E1;
+    display: none;
+    text-align: center;
+    padding: 30% 3rem;
+    border-radius: 30px;
+}
+
+.label{
+
+    text-align: right;
+}
+
+.data{
+
+    text-align: center;
+}
+
+table{
+    display: none;
+    width: 100%;
+}
+
+.sorry{
+
+    display: none;
+}
+
+.other-information{
+
+    margin-top: 2rem;
+}
